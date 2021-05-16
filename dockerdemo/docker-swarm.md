@@ -10,7 +10,7 @@ This command will generate a join command similar to below
 `docker node ls`
 
 # Create Service
-`docker service create –name Apache2 –mode global -d -p 8003:80 httpd`
+`docker service create --name Apache2 --mode global -d -p 8003:80 httpd`
 
 # List services
 `Docker service ls`
